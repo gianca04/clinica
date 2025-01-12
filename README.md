@@ -50,7 +50,7 @@ Gestión y administración de paquetes por parte del administrador.
 
 - Creación de álbumes por terapias, permitiendo organizar las fotografías relacionadas.
 
-### Arquitectura MVVM
+## Arquitectura MVVM
 
 El proyecto sigue la arquitectura Modelo-Vista-Servicio-VistaModelo, con los siguientes componentes principales:
 
@@ -62,7 +62,7 @@ El proyecto sigue la arquitectura Modelo-Vista-Servicio-VistaModelo, con los sig
 
 - **VistaModelo:** Actúa como intermediario entre el modelo y la vista, gestionando la lógica de negocio y proporcionando datos a la interfaz de usuario de manera reactiva.
 
-### Consideraciones de Seguridad
+## Consideraciones de Seguridad
 
 - Implementar validaciones adicionales en el frontend para evitar el ingreso de datos incorrectos.
 
