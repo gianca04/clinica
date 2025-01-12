@@ -26,70 +26,46 @@ Visualización de paquetes disponibles para terapias y tratamientos.
 
 Gestión y administración de paquetes por parte del administrador.
 
-3. Progreso de Mi Terapia
+### 3. Progreso de Mi Terapia
 
-Monitoreo y actualización del progreso de las terapias.
+- Monitoreo y actualización del progreso de las terapias.
 
-Visualización gráfica del avance en las sesiones de terapia.
+- Visualización gráfica del avance en las sesiones de terapia.
 
-4. Especialistas
+### 4. Especialistas
 
-Listado de especialistas disponibles.
+- Listado de especialistas disponibles.
 
-Visualización de información detallada de cada especialista.
+- Visualización de información detallada de cada especialista.
 
-5. Administrar Citas
+### 5. Administrar Citas
 
-Gestión de citas: programar, cancelar y modificar.
+- Gestión de citas: programar, cancelar y modificar.
 
-Notificaciones automáticas para recordatorios de citas.
+- Notificaciones automáticas para recordatorios de citas.
 
-6. Galería de Citas
+### 6. Galería de Citas
 
-Historial visual de citas realizadas.
+- Historial visual de citas realizadas.
 
-Creación de álbumes por terapias, permitiendo organizar las fotografías relacionadas.
+- Creación de álbumes por terapias, permitiendo organizar las fotografías relacionadas.
 
-Opciones para filtrar y buscar álbumes y fotos específicas.
-
-Arquitectura MVVM
+### Arquitectura MVVM
 
 El proyecto sigue la arquitectura Modelo-Vista-Servicio-VistaModelo, con los siguientes componentes principales:
 
-Modelo: Representa la estructura y los datos de la aplicación, incluyendo las clases que interactúan con Firebase Firestore y otros servicios.
+- **Modelo:** Representa la estructura y los datos de la aplicación, incluyendo las clases que interactúan con Firebase Firestore y otros servicios.
 
-Vista: Contiene los elementos de interfaz de usuario desarrollados en Flutter.
+- **Vista:** Contiene los elementos de interfaz de usuario desarrollados en Flutter.
 
-Servicio: Maneja las interacciones con Firebase, como la autenticación y las consultas a Firestore.
+- **Servicio:** Maneja las interacciones con Firebase, como la autenticación y las consultas a Firestore.
 
-VistaModelo: Actúa como intermediario entre el modelo y la vista, gestionando la lógica de negocio y proporcionando datos a la interfaz de usuario de manera reactiva.
+- **VistaModelo:** Actúa como intermediario entre el modelo y la vista, gestionando la lógica de negocio y proporcionando datos a la interfaz de usuario de manera reactiva.
 
-Configuración e Instalación
+### Consideraciones de Seguridad
 
-Clonar este repositorio:
+- Implementar validaciones adicionales en el frontend para evitar el ingreso de datos incorrectos.
 
-git clone <URL_DEL_REPOSITORIO>
+- Configurar reglas de acceso en Firebase Firestore para proteger la información sensible.
 
-Instalar las dependencias necesarias:
-
-flutter pub get
-
-Configurar Firebase:
-
-Crear un proyecto en Firebase Console.
-
-Descargar el archivo google-services.json (para Android) y GoogleService-Info.plist (para iOS) y colocarlos en las carpetas correspondientes del proyecto Flutter.
-
-Configurar las reglas de seguridad para Firestore y Authentication según las necesidades del cliente.
-
-Iniciar el proyecto:
-
-flutter run
-
-Consideraciones de Seguridad
-
-Implementar validaciones adicionales en el frontend para evitar el ingreso de datos incorrectos.
-
-Configurar reglas de acceso en Firebase Firestore para proteger la información sensible.
-
-Usar HTTPS en todas las conexiones para garantizar la seguridad de los datos.
+- Usar HTTPS en todas las conexiones para garantizar la seguridad de los datos.
