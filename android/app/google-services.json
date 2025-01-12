@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "56062361558",
+    "project_id": "clinica-8d808",
+    "storage_bucket": "clinica-8d808.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56062361558:android:88eced7abe720c89c52e77",
+        "android_client_info": {
+          "package_name": "com.compania.clinica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRlcVxQZaaGHWXYybJsj9dUYIBgd1K76M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56062361558:android:12f799eefe15545cc52e77",
+        "android_client_info": {
+          "package_name": "com.example.clinica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRlcVxQZaaGHWXYybJsj9dUYIBgd1K76M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56062361558:android:2ff6ab6ccd67f031c52e77",
+        "android_client_info": {
+          "package_name": "com.ucv.clinica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRlcVxQZaaGHWXYybJsj9dUYIBgd1K76M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
